@@ -15,7 +15,7 @@
         <div class="right">
 
         <div class="form">
-                <div class="heading">Sign up as <br><span class="diff"> User</span></div>
+                <div class="heading">Sign up as <br><span class="diff"> Hospital</span></div>
             <hr>
             <div class="email">
                 <label for="email">Email</label>
@@ -23,18 +23,19 @@
             </div>
             <div class="info">
                 <div class="half">
-                    <label for="First Name">First Name</label>
-                    <input type="text" name="First Name" id="First Name" placeholder="Enter your First Name">
+                    <label for="First Name">Hospital name</label>
+                    <input type="text" name="Hospital Name" id="First Name" placeholder="Enter Hospital Name">
                 </div>
                 <div class="half">
-                    <label for="Last Name">Last Name</label>
-                    <input type="text" name="Last Name" id="Last Name" placeholder="Enter your Last Name">
+                    <label for="Last Name">Ownership Type</label>
+                    <input type="text" name="Ownership" id="Last Name" placeholder="Enter Ownership  type">
                 </div>
             </div>
             <div class="info">
                 <div class="half">
-                    <label for="blood-group">Blood Group</label>
-                    <select name="blood-group" id="blood-group">
+                    <label for="location">Location</label>
+                    <select name="location" id="location">
+                        <option value="" disabled selected>Enter City</option>
                         <option value="A+">A+</option>
                         <option value="A-">A-</option>
                         <option value="B+">B+</option>
@@ -47,22 +48,24 @@
                     </select>
                 </div>
                 <div class="half">
-                    <label for="dob">DOB</label>
-                    <input type="date" name="dob" id="dob">
+                    <label for="dob">Year of Est.</label>
+                    <input type="date" name="yoe" id="yoe">
                 </div>
                 <div class="half">
-                    <label for="gender">Gender</label>
+                    <label for="gender">No. of Employee</label>
                     <select name="gender" id="gender">
-                        <option value="Male">Male</option>
-                        <option value="FeMale">Female</option>
-                        <option value="other">Other</option>
+                        <option value="">Select No. of Employee</option>
+                        <option value="100">Less than 100</option>
+                        <option value="200">100-500</option>
+                        <option value="500">500-1000</option>
+                        <option value="1000">More than 1000</option>
                     </select>
                 </div>
             </div>
             <div class="info">
                 <div class="full">
-                    <label for="phone-no.">Phone Number</label>
-                    <input type="tel" name="phone-no." id="phone-no." placeholder="Enter your Phone Number">
+                    <label for="phone-no.">Contact Number</label>
+                    <input type="tel" name="phone-no." id="phone-no." placeholder="Enter your Contact Number">
                 </div>
             </div>
             <div class="info">
