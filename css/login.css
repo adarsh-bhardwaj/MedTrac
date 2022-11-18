@@ -85,10 +85,6 @@ button {
     display: block;
     margin: 10px auto;
   }
-  button:active {
-    /* transform:  scale(.99); */
-
-  }
   button:hover {
     transform:   scale(1.07);
     background-color: var(--main-color);
@@ -177,6 +173,6 @@ span i.fa:hover{
         width: 85%;
     }
 }
-input:-webkit-autofill{
+/* input:-webkit-autofill{
 	-webkit-box-shadow: 0 0 0px 1000px white inset;
-}
+} */
